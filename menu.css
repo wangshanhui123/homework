@@ -1,0 +1,94 @@
+.container{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(229, 233, 243);
+}
+.big-box{
+    width: 100%;
+    background-color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.navigation-box{
+    margin: auto;
+    width: 90%;
+}
+.menu-photo{
+    border-radius: 8px;
+}
+.min-photo{
+    margin: auto;
+    width: 30px;
+    height: 30px;
+}
+.checkbox{
+    margin-left: 1px;
+    margin-top: 15px;
+}
+.nav-word{
+    color: #000;
+}
+.nav-a{
+    cursor: pointer;
+}
+/* 鼠标移上a标签没有下划线 */
+.nav-a:hover{
+    text-decoration: none;
+}
+.new-box{
+    width: 100%;
+    background-color: white;
+}
+.new-body{
+    margin: auto;
+    background-color: white;
+    width: 90%;
+}
+.title-box{
+    height: 45px;
+    border-bottom: rgb(240, 237, 237) 1px solid;
+    border-top: rgb(240, 237, 237) 1px solid;
+}
+.new-title{
+    margin-top: 11px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.new-word{
+    height: 80px;
+    background-color: white;
+    border-bottom: rgb(240, 237, 237) 1px solid;
+}
+.new-photo{
+    margin: 10px;
+    width: 60px;
+    height: 60px;
+    border: rgb(216, 214, 214) 1px solid;
+}
+.word-box{
+   margin-top: 10px;
+   margin-bottom: 10px;
+   height: 60px;
+   /* border: #000 1px solid; */
+}
+.new-title-box{
+   margin: 0;
+   padding: 0;
+   width: 200px;
+   height: 40px;
+   /* border: #000 1px solid; */
+   display: block;
+   white-space: nowrap;
+   text-overflow: ellipsis; 
+   overflow: hidden;
+   font-weight: bold;
+}
+.new-all{
+   min-height: 305px;
+   max-height: 400px;
+   overflow: scroll;
+}
+.font-box{
+   font-size: 9px;
+   color: rgb(114, 111, 111);
+}
